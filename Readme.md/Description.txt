@@ -1,3 +1,6 @@
 STAT 386 Lab 1: Git and GitHub
 
-This repository consists of my work done while completing the first homework assignment in my STAT 386 Data Science Process class. It includes text files, directories, and commits.
+This repository consists of my work done while
+completing the first homework assignment in my
+STAT 386 Data Science Process class. It includes
+text files, directories, and commits.
