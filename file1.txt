@@ -1,3 +1,0 @@
-This is my first file.
-
-This is the a line of text before I merge the features branch to main branch (this is blowing my mind right now).
