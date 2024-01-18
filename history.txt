@@ -1,0 +1,195 @@
+    1  git --version
+    6  git clone 
+    7  git clone git@github.com:Hawkety77/Stat330Project.git
+   13  git --version
+   14  git -- version
+   15  git --version
+   16  git config --global user.name "Talmage Hilton"
+   17  git config --global user.email "talmagehilton24@gmail.com"
+   18  git config --list
+   19  git config --global core.editor "code --wait"
+   20  git config --global init.defaultBranch main
+   21  git config --list
+   31  mkdir git_practice_esnt
+   33  git init
+   35  git status
+   37  git status
+   38  git add file1.txt
+   40  git mv fil1.txt file1.txt
+   44  git status
+   45  git commit -m "First Commit"
+   46  git add [file1.txt]
+   47  git add file1.txt
+   48  git commit -m "First Commit"
+   49  git status
+   57  mkdir git-practice-Talmage-Hilton
+   60  cd Documents/'STAT 386'/git-practice-Talmage-Hilton
+   73  cd git-practice-Talmage-Hilton
+   75  git init
+   77  git status
+   80  git status
+   82  git add file1.txt file2.txt
+   83  git status
+   84  git commit -m "create new files"
+   85  git status
+   86  git log
+   89  cd Documents/"STAT 386"/git_practice_esnt
+   91  git add file1.txt
+   92  git status
+   93  git commit -m "First Commit"
+  100  cd git-practice-Talmage-Hilton
+  102  git status
+  103  git log
+  104  git status
+  105  git add file1.txt
+  106  git commit -m "Editing file1"
+  107  git status
+  108  git add file2.txt
+  109  git add -m "Edit file2"
+  110  git status
+  111  git commit -m "Edit file2"
+  112  git status
+  113  git log
+  121  git status
+  126  git add Readme.md
+  128  git add Readme.md
+  129  git status
+  135  git status
+  141  git status
+  142  git log
+  144  git status
+  145  git add Readme.md
+  146  git commit -m "Commit Readme"
+  147  git status
+  148  git log
+  150  mkdir .gitignore
+  152  git add .gitignore
+  155  cd git-practice-Talmage-Hilton
+  157  touch .gitignore
+  159  git status
+  161  touch .gitignore
+  163  git add .gitignore
+  164  git commit -m "Commit .gitignore"
+  165  git status
+  166  git log
+  168  cd .gitignore
+  169  rm .gitignore
+  171  git status
+  172  git add/rm .gitignore
+  173  git commit -m "Delete incorrect .gitignore"
+  174  git add .gitignore
+  175  git commit -m "Delete incorrect .gitignore"
+  176  git status
+  177  git touch .gitignore api-keys.txt
+  178  touch .gitignore api-keys.txt
+  182  git status
+  183  git status
+  185  cd Documents/"STAT 386"/git-practice-Talmage-Hilton
+  187  touch .gitignore api-keys.txt
+  188  git status
+  189  git add .gitignore
+  190  git commit -m "Commit .gitignore"
+  193  git status
+  194  git status
+  195  git add .gitignore
+  196  git commit -m "Updating .gitignore to include api-keys.txt"
+  197  git status
+  198  git log
+  199  git log
+  200  cd Documents/"STAT 386"/git-practice-Talmage-Hilton
+  203  git branch
+  204  git switch -c features
+  205  git log
+  207  git add new_features.txt
+  208  git status
+  209  git commit -m "add empty file"
+  210  git status
+  211  git add new_features.txt
+  212  git commit -m "Add text to new_features.txt"
+  213  git status
+  215  git switch main
+  217  git status
+  218  git add file1.txt
+  219  git commit -m "Update file1.txt"
+  220  git status
+  221  git merge features
+  222  git status
+  223  git log
+  224  git status
+  225  git status
+  226  git add new_features.txt
+  227  git commit -m "Replace text in new_features.txt"
+  228  git status
+  229  git switch features
+  230  git status
+  231  git add new_features.txt
+  232  git commit -m "Add new text to new_features.txt"
+  233  git status
+  234  git switch main
+  235  git merge features
+  236  git status
+  237  git add new_features.txt
+  238  git commit -m "Merge branches after resolving conflict"
+  239  git status
+  240  git branch -d features
+  241  git status
+  242  git switch features
+  243  git status
+  244  git remote add origin git@github.com:Talmage-Hilton/git-practice-Talmage-Hilton.git
+  245  git push -u origin main
+  246  git status
+  247  git add Description.txt
+  249  git add Readme.md/Description.txt
+  250  git commit -m "Edit Description"
+  251  git push -u origin main
+  257  cd git_practice_esnt
+  259  touch .gitignore
+  263  code .gitignore
+  264  git status
+  265  git add .gitignore
+  266  git commit -m "Create .gitignore"
+  267  git status
+  270  git status
+  272  cd git-practice-Talmage-Hilton
+  276  cd git-practice-Talmage-Hilton
+  278  git status
+  282  cd git_practice_esnt
+  285  git status
+  286  git branch
+  287  git branch new-feature
+  288  git switch new-feature
+  289  git branch
+  293  git add file2.txt
+  294  git commit file2.txt -m "Create file2.txt"
+  295  git status
+  296  git branch
+  297  git switch main
+  298  git branch
+  299  git merge new-feature
+  300  git status
+  301  git branch
+  303  git log
+  304  git branch -d new-feature
+  305  git branch
+  307  git status
+  308  git status
+  315  cd git-practice-Talmage-Hilton
+  317  git status
+  318  git remote -v
+  327  cd Documents/'STAT 386'/git-practice-Talmage-Hilton
+  329  git status
+  330  git version -v
+  331  git remote -v
+  332  git pull
+  333  git status
+  334  git pull
+  337  cd git-practice-Talmage-Hilton
+  338  git pull
+  341  git version -v
+  342  git remote -v
+  343  git pull
+  344  git clone git@github.com:Talmage-Hilton/git-practice-calebc.git
+  347  cd git-practice-Talmage-Hilton
+  348  git log --oneline
+  349  git log --oneline > gitlog.txt
+  350  history | grep git > history.txt

@@ -1,0 +1,19 @@
+abf7ecd Merge pull request #1 from esnt/main
+9ace8b4 Update file2.txt
+194eabe Change file2
+e2449cc Edit Description
+6c5feed Merge branches after resolving conflict
+8a44e6e Add new text to new_features.txt
+e3571af Replace text in new_features.txt
+9a508ca Merge branch 'features' Merge features branch to main branch
+a6cb912 Update file1.txt
+3c2749e Add text to new_features.txt
+1f26cb9 add empty file
+0289da4 Updating .gitignore to include api-keys.txt
+eb27edf Commit .gitignore
+a30da7b Delete incorrect .gitignore
+d438050 Commit .gitignore
+511bb6b Commit Readme
+b919069 Edit file2
+c26fb5e Editing file1
+e2b850b create new files
